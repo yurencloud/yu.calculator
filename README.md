@@ -18,6 +18,12 @@ var r3 = calculator.mul(7, 0.8) // 5.6
 
 // 除
 var r4 = calculator.div(0.3, 0.1) // 3
+
+// 科学计数转字符串数字
+var r5 = calculator.string(1e20) // '100000000000000000000'
+
+// 按精度截取小数，舍弃小数部分
+var r6 = calculator.format(32.2349341, 3) // '32.234'
 ~~~
 
 
