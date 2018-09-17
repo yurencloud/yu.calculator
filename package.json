@@ -1,0 +1,30 @@
+{
+  "name": "yu.calculator",
+  "version": "1.0.1",
+  "description": "calculator util",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "yu.calculator",
+    "calculator",
+    "calculation",
+    "yurencloud",
+    "yuren",
+    "yu",
+    "mackwang",
+    "yurencloud.com"
+  ],
+  "author": {
+    "name": "mackwang",
+    "email": "641212003@qq.com",
+    "url": "http://www.yurencloud.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurencloud/yu.calculator.git"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
