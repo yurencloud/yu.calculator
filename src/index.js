@@ -16,13 +16,13 @@ var calculator = {}
 * @return number String 字符串数字，科技计数法会转成普通计数
 * */
 calculator.string = function (number) {
-    const data = String(number).split(/[eE]/)
+    var data = String(number).split(/[eE]/)
     if (data.length === 1) return data[0]
 
-    let z = ''
-    const sign = number < 0 ? '-' : ''
-    const str = data[0].replace('.', '')
-    let mag = Number(data[1]) + 1;
+    var z = ''
+    var sign = number < 0 ? '-' : ''
+    var str = data[0].replace('.', '')
+    var mag = Number(data[1]) + 1;
 
     if (mag < 0) {
         z = sign + '0.'
