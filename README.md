@@ -28,3 +28,5 @@ var r6 = calculator.format(32.2349341, 3) // '32.234'
 
 
 > 具体使用方法见index.test.js，
+
+> 非原创，请见开源项目`fzred/calculatorjs` [github](https://github.com/fzred/calculatorjs)
