@@ -4,6 +4,7 @@ var calculator = require('./src/index')
 test('加法', () => {
     console.log(0.1 + 0.2) // 0.30000000000000004
     expect(calculator.add(0.1, 0.2)).toBe(0.3)
+    expect(calculator.add(0.14, 0.01)).toBe(0.15)
     expect(calculator.add(3355455569.6655555, 54235.248237958)).toBe(3355509804.9137936)
     expect(calculator.add(100000000000000000.3, 0.6)).toBe(100000000000000000.9)
     expect(calculator.add(3355455569, 54235)).toBe(3355509804)
@@ -31,6 +32,7 @@ test('乘法', () => {
     expect(calculator.mul(100000000000000000000.3, 0.01)).toBe(1000000000000000000.003)
     expect(calculator.mul(100, 32)).toBe(3200)
     expect(calculator.mul(1, 0.003)).toBe(0.003)
+    expect(calculator.mul(0.14, 0.01)).toBe(0.0014)
     expect(calculator.mul('7', '0.8')).toBe(5.6)
 })
 
